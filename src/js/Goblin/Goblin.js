@@ -1,3 +1,5 @@
+// import goblinPng from "src/img/goblin.png";
+// import goblin from "src/img/goblin.png";
 import getRandom from '../libs/random';
 
 export default class Goblin {
@@ -10,7 +12,7 @@ export default class Goblin {
 
   randomHole() {
     const item = document.createElement('img');
-    item.src = '/src/img/goblin.png';
+    item.src = 'src/img/goblin.png';
     item.classList.add('goblin');
     // this.hole[4].append(item);
     let index = -1;
